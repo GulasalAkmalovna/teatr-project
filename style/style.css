@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Open Sans Condensend" ;
+    
+}
+@font-face {
+    font-family: "Open Sans Condensend";
+    src: url("../fonts/Open Sans Condensed.woff2");
+}
+:root{
+    --condensend: "Open Sans Condensend";
+    --sans:"Open Sans"; 
+    --gold:#D1A954;
+    --white:#fff;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    /* background-color: #00ffff57; */
+}
+.wrapper{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+}
+#header{
+    width: 100%;
+    min-height: 1045px;
+    background-image: url("../images/bg-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* display: flex; */
+}
+.header-main{
+    width: 100%;
+    min-height: 1045px;
+    /* background-color: #00ffff57; */
+}
+.nav{
+    width: 100%;
+    /* background-color: rgba(216, 112, 147, 0.562); */
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+.nav-item-link{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 1s;
+}
+.nav-tel-link{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 1s;
+}
+.nav-item-link:hover{
+    color: var(--gold);
+    text-underline-offset: 6px;
+    text-decoration: underline 2px solid var(--gold);
+}
+.nav-tel-link:hover{
+    color: var(--gold);
+    text-underline-offset: 6px;
+    text-decoration: underline 2px solid var(--gold);
+}
+.hero{
+    width: 100%;
+    /* min-height: 100vh; */
+    /* background-color: rgba(202, 98, 250, 0.598); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-group{
+    width: 100%;
+    max-width: 1035px;
+    min-height: 570px;
+    /* border: 5px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+}
+.hero-group-content{
+    width: 100%;
+    max-width: 540px;
+    min-height: 296px;
+    /* background-color: rgba(174, 23, 23, 0.37); */
+    display: flex;
+    flex-direction: column;
+    gap: 50px 0;
+}
+.hero-title{
+    max-width: 540px;
+    font-weight:700;
+    font-size: 64px;
+    line-height: 87.16px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.hero-text{
+    font-weight:400;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: var(--sans);
+    color: var(--white);
+}
+.hero-btn-link{
+    font-size: 18px;
+    line-height: 24.51px;
+    font-weight:400;
+    color: var(--white);
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 160px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    background-color: var(--gold);
+}
+.hero-group-slider{
+    width: 100%;
+    max-width: 370px;
+    min-height: 570px;
+    /* background-color: rgba(0, 128, 0, 0.679); */
+    overflow: hidden;
+}
+.slider-arrows{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 35px;
+}
+.slider-arrow-link{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    line-height: 24.51px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: var(--white);
+    letter-spacing: 3px;
+}
+.sidebar{
+    width: 100%;
+    max-width: 150px;
+    min-height: 1045px;
+    background-color: #333333BF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px 0px;
+    padding: 250px 0px 86px 0px;
+}
+.sidebar-social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 0px
+}
