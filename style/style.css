@@ -207,9 +207,10 @@ html{
 }
 .about-title{
     font-size: 48px;
-    font-weight: 500;
+    font-weight: 400;
     font-family: var(--sans);
     text-transform: uppercase;
+    color: var(--white);
 }
 .about-span{
     font-size: 48px;
@@ -217,6 +218,7 @@ html{
     /* font-family: var(--sans); */
     text-transform: uppercase;
     color: var(--gold);
+    letter-spacing: 3px;
 }
 .about-content-wrapper{
     width: 100%;
@@ -317,3 +319,72 @@ html{
   .info-wrapper > .about-title{
     text-align: center;
   }
+  #extra{
+    width: 100%;
+    padding-bottom: 150px;
+    background-color: #333333;
+  }
+  .extra-wrapper{
+    width: 100%;
+    min-height: 550px;
+    background-image: url("../images/parij-teatr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .extra-content{
+    width: 100%;
+    max-width: 760px;
+    min-height: 298px;
+    display: grid;
+    grid-template-columns: repeat(2,350px 400px);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: space-between;
+    /* gap: 0px 20px ; */
+    
+  }
+  .extra-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+.extra-number{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 98px;
+    color: var(--gold);
+}
+.extra-stars{
+  display: flex;
+  gap: 0px 25px;
+}
+.extra-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #fff;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+#service{
+    width: 100%;
+    padding: 0px 0px 150px 0px;
+    background-color: #333333;
+}
+.service-wrapper{
+    width: 100%;
+    min-height: 437px;
+    text-align: center;
+}
+.service-logos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 80px;
+    margin-top: 100px;
+}
